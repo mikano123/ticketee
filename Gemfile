@@ -34,14 +34,15 @@ gem 'jquery-rails'
   # Pretty printed test output
 #  gem 'turn', :require => false
 #end
-
-group :development, :test do
-#group  :test do
+group :test, :development do
+  gem 'rspec-rails', '~> 2.5'
   gem 'factory_girl'
-  gem "rspec-rails", ">= 2.0.0"
-  gem "capybara"
-  gem "database_cleaner", ">=0.5.0"
 end
 group :test do
-  gem "cucumber-rails"
+  gem 'cucumber-rails'
+  gem 'capybara'
+  gem 'database_cleaner'
 end
+
+
+
