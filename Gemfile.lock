@@ -112,6 +112,8 @@ GEM
     rake (0.9.2.2)
     rdoc (3.11)
       json (~> 1.4)
+    redcar (0.11)
+      rubyzip
     rspec (2.7.0)
       rspec-core (~> 2.7.0)
       rspec-expectations (~> 2.7.0)
@@ -170,6 +172,7 @@ DEPENDENCIES
   factory_girl
   jquery-rails
   rails (= 3.1.0)
+  redcar
   rspec-rails (~> 2.5)
   sass-rails (~> 3.1.0)
   sqlite3

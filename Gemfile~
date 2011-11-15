@@ -34,7 +34,7 @@ gem 'jquery-rails'
   # Pretty printed test output
 #  gem 'turn', :require => false
 #end
-gem 'redcar'
+gem redcar
 group :test, :development do
   gem 'rspec-rails', '~> 2.5'
   gem 'factory_girl'
